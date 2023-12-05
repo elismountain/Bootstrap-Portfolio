@@ -62,9 +62,12 @@ li {
 
 /* Porfolio */
 
+.card {
+    margin-bottom: 30px;
+}
+
 .card-img-top {
   width: 100%;
-  min-height: 80px;
 }
 hr.style13 {
   height: 10px;
