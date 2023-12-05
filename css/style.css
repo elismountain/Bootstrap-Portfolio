@@ -99,8 +99,63 @@ grid-gap: 1em;
 
 .around-the-web {
   font-size: 40px;
+  min-width: 40px;
 }
 .experience {
   padding-top: 50px;
 }
 
+
+/* Footer */
+
+footer .jumbotron {
+    padding: 2rem 2rem;
+  }
+  
+  /* media queries */
+  @media (max-width: 850px) {
+    .jumbotron-fluid img {
+      width: 80%;
+    }
+  }
+  
+  @media (max-width: 767px) { 
+    .jumbotron-fluid {
+      margin-top: 115px;
+      text-align: center;
+    }
+    .jumbotron-vertical-middle {
+      margin-top: -60px;
+    }
+    form button {
+      margin-bottom: 30px;
+    }
+    .jumbotron-fluid img {
+      width: 50%;
+    }
+  }
+  @media (max-width: 575px) { 
+    .jumbotron-fluid {
+      margin-top: 130px;
+    }
+    .display-3 {
+      font-size: 40px;
+      font-weiht: bold;
+    }
+    .jumbotron-vertical-middle {
+      margin-top: -30px;
+    }
+    .jumbotron-fluid img {
+      width: 50%;
+    }
+  }
+  @media (max-width: 441px) {
+    .jumbotron {
+      margin-top: 170px;
+    }
+  }
+  @media (max-width: 330px) {
+    .jumbotron {
+      margin-top: 210px;
+    }
+  }
